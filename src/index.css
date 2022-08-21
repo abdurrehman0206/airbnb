@@ -10,7 +10,7 @@ body {
 
 .container {
   width: 550px;
-  height: 853px;
+  height: 860px;
   border-radius: 10px;
   overflow: hidden;
   background: #f5f5f5;
@@ -40,6 +40,8 @@ body {
   max-width: 400px;
 }
 .hero .textContainer {
+  position: relative;
+  top: -10px;
   max-width: 415px;
   width: 415px;
   margin-left: -80px;
@@ -59,20 +61,22 @@ body {
 }
 
 .experienceContainer {
-  margin-top: 30px;
-  width: 500px;
-  max-width: 500px;
+  margin-top: 10px;
+  width: 550px;
+  max-width: 560px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  overflow-x: auto;
+  position: relative;
 }
 
 .card {
   min-width: 177px;
   margin-left: 18px;
   width: 177px;
-  height: 302px;
+  height: 312px;
   font-size: 12px;
 }
 .card .main-image {
