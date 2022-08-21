@@ -4,6 +4,7 @@ import e3 from "./images/2.png";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
+    id: 1,
     img: e1,
     ratings: "5.0",
     count: "6",
@@ -14,6 +15,7 @@ export default [
     isOnline: false,
   },
   {
+    id: 2,
     img: e2,
     ratings: "5.0",
     count: "30",
@@ -24,6 +26,7 @@ export default [
     isOnline: true,
   },
   {
+    id: 3,
     img: e3,
     ratings: "4.8",
     count: "5",
